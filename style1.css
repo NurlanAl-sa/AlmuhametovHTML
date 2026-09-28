@@ -1,0 +1,43 @@
+
+.menu {
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+}
+
+.menu-link {
+    color: rgb(0, 247, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.menu-link:hover {
+    background-color: #555;
+}
+
+
+.menu-right {
+    margin-left: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+img {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+a {
+    color: #017ac0f6;
+}

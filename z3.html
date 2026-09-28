@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Регистрация</title>
+        <link href="./style1.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="menu">
+            <a href="z2.html" class="menu-link">На главную</a>
+            <a href="z3.html" class="menu-link menu-right">Регистрация</a>
+        </div>
+
+        <h1>Форма регистрации</h1>
+
+        <form>
+            <p>Имя: <input type="text" name="username"></p>
+            <p>Email: <input type="email" name="email"></p>
+            <p>Пароль: <input type="password" name="password"></p>
+            <p>Изображение: <input type="file" name="avatar"></p>
+
+            <p>Пол:</p>
+            <p>
+                <label><input type="radio" name="gender" value="male"> Мужской</label>
+                <label><input type="radio" name="gender" value="female"> Женский</label>
+            </p>
+
+            <p>Согласие на получение рассылки:</p>
+            <p>
+                <label><input type="checkbox" name="subscribe"> Да, я согласен</label>
+            </p>
+
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </body>
+</html>
